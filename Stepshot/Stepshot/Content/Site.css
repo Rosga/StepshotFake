@@ -1,13 +1,16 @@
 ﻿body {
     padding-top: 8px;
-    padding-bottom: 20px;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+    line-height: 1.1;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -23,16 +26,13 @@ select,
 textarea {
     max-width: 280px;
 }
-.navbar-brand {
-    padding: 0;
+
+.navbar {
+    margin-bottom: 7px;
 }
 
-#logo {
-    margin-left: -19px;
-}
-
-.navbar-nav {
-    padding-right: 8px;
+.navbar-header .navbar-brand {
+    padding: 0 0 0 4px;
 }
 
 .navbar-nav li {
@@ -44,9 +44,9 @@ textarea {
 }
 
 footer {
-    background-color: #555;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    background-color: #444;
+    padding-top: 28px;
+    padding-bottom: 26px;
     text-align: center;
     color: #ddd;
     font-size: 16px;
@@ -59,3 +59,227 @@ footer p {
 footer a {
     color: #ddd;
 }
+
+.product-links .row {
+    align-items: center;
+    display: flex;
+}
+
+.product-link {
+    background-color: #444;
+    font-size: 24px;
+    color: white;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    display: block;
+}
+
+.product-link:hover {
+    background-color: #333;
+    color: white;
+}
+
+/*#region .product*/
+
+.product {
+    padding-top: 3px;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.product h1 {
+    font-size: 48px;
+}
+
+.product h2 {
+    padding-top: 27px;
+}
+
+.product .btn {
+    margin-top: 17px;
+}
+
+.product video {
+    margin-top: 16px;
+}
+
+/* #endregion*/
+
+/*#region .features*/
+
+.features {
+    padding-bottom: 19px;
+}
+
+.features .row {
+    padding-top: 14px;
+}
+
+.features a {
+    text-decoration: none;
+    color: #333;
+}
+
+.features a:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.features .col-md-4 {
+    text-align: center;
+}
+
+.features span.glyphicon {
+    font-size: 96px;
+}
+
+.features h3 {
+    font-size: 32px;
+}
+
+/* #endregion*/
+
+/* #region get-stepshot*/
+
+.get-stepshot {
+    background-color: #eee;
+    padding-top: 3px;
+    padding-bottom: 19px;
+}
+
+.get-stepshot h3 {
+    font-size: 32px;
+}
+
+.get-stepshot .row {
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.get-stepshot p {
+    font-size: 16px;
+}
+
+.get-stepshot p.price {
+    font-size: 64px;
+    color: #47a447;
+}
+
+/* #endregion */
+
+/* #region discount */
+
+.discount {
+    padding-top: 3px;
+    padding-bottom: 29px;
+}
+
+.discount h2 {
+    font-size: 48px;
+}
+
+.discount h3 {
+    font-size: 32px;
+}
+
+.discount .row {
+    padding-top: 6px;
+}
+
+.discount p {
+    font-size: 16px;
+}
+
+.discount p.discount-text {
+    font-size: 32px;
+    color: #47A447;
+}
+
+.discount p.discount-text img {
+    height: 38px;
+    opacity: .8;
+}
+
+/* #endregion*/
+
+/* #region subscription */
+
+.subscription {
+    background-color: #eee;
+    padding-top: 4px;
+    padding-bottom: 19px;
+}
+
+.subscription h2 {
+    font-size: 48px;
+}
+
+.subscription h3 {
+    font-size: 32px;
+}
+
+.subscription .row {
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+
+.subscription p {
+    font-size: 16px;
+}
+
+.subscription p.price {
+    font-size: 64px;
+    color: #47a447;
+}
+
+/* #endregion*/
+
+/* #region try-another*/
+
+.try-another {
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+
+.try-another h2 {
+    font-size: 48px;
+}
+
+.try-another p {
+    font-size: 16px;
+}
+
+/* #endregion */
+
+/* #region product-full*/
+
+.product-full .product-links .product-link-active {
+    background-color: #34a55c;
+    color: white;
+}
+
+.product-full .product-links .product-link-active:hover {
+    background-color: #287e46;
+    color: white;
+}
+
+.product-full .product {
+    background-color: #34a55c;
+}
+
+.product-full .features h2{
+    font-size: 48px;
+    margin-top: 23px;
+}
+
+.product-full .features p {
+    font-size: 16px;
+}
+
+.product-full .get-stepshot h2 {
+    font-size: 48px;
+}
+
+/* #endregion*/
+
