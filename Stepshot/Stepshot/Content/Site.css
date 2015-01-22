@@ -60,6 +60,16 @@ footer a {
     color: #ddd;
 }
 
+/*#region shared*/
+
+h3 {
+    font-size: 32px;
+}
+
+/* #endregion*/
+
+/* #region product-links*/
+
 .product-links .row {
     align-items: center;
     display: flex;
@@ -79,6 +89,8 @@ footer a {
     background-color: #333;
     color: white;
 }
+
+/* #endregion*/
 
 /*#region .product*/
 
@@ -126,16 +138,8 @@ footer a {
     cursor: pointer;
 }
 
-.features .col-md-4 {
-    text-align: center;
-}
-
 .features span.glyphicon {
     font-size: 96px;
-}
-
-.features h3 {
-    font-size: 32px;
 }
 
 /* #endregion*/
@@ -146,10 +150,6 @@ footer a {
     background-color: #eee;
     padding-top: 3px;
     padding-bottom: 19px;
-}
-
-.get-stepshot h3 {
-    font-size: 32px;
 }
 
 .get-stepshot .row {
@@ -163,7 +163,6 @@ footer a {
 
 .get-stepshot p.price {
     font-size: 64px;
-    color: #47a447;
 }
 
 /* #endregion */
@@ -173,14 +172,6 @@ footer a {
 .discount {
     padding-top: 3px;
     padding-bottom: 29px;
-}
-
-.discount h2 {
-    font-size: 48px;
-}
-
-.discount h3 {
-    font-size: 32px;
 }
 
 .discount .row {
@@ -193,7 +184,6 @@ footer a {
 
 .discount p.discount-text {
     font-size: 32px;
-    color: #47A447;
 }
 
 .discount p.discount-text img {
@@ -211,14 +201,6 @@ footer a {
     padding-bottom: 19px;
 }
 
-.subscription h2 {
-    font-size: 48px;
-}
-
-.subscription h3 {
-    font-size: 32px;
-}
-
 .subscription .row {
     padding-top: 6px;
     padding-bottom: 10px;
@@ -230,7 +212,6 @@ footer a {
 
 .subscription p.price {
     font-size: 64px;
-    color: #47a447;
 }
 
 /* #endregion*/
@@ -242,10 +223,6 @@ footer a {
     padding-bottom: 20px;
 }
 
-.try-another h2 {
-    font-size: 48px;
-}
-
 .try-another p {
     font-size: 16px;
 }
@@ -253,6 +230,10 @@ footer a {
 /* #endregion */
 
 /* #region product-full*/
+
+.product-full h2{
+    font-size: 48px;
+}
 
 .product-full .product-links .product-link-active {
     background-color: #34a55c;
@@ -268,8 +249,11 @@ footer a {
     background-color: #34a55c;
 }
 
+.product-full .product h2 {
+    font-size: 30px
+}
+
 .product-full .features h2{
-    font-size: 48px;
     margin-top: 23px;
 }
 
@@ -277,9 +261,60 @@ footer a {
     font-size: 16px;
 }
 
-.product-full .get-stepshot h2 {
-    font-size: 48px;
+.product-full p.price {
+    color: #47a447;
+}
+
+.product-full .discount h2 {
+    font-size: 32px;
 }
 
 /* #endregion*/
 
+/* #region confluence*/
+
+.confluence h2 {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.confluence .product-links .product-link-active {
+    background-color: #205081;
+    color: white;
+}
+
+.confluence .product-links .product-link-active:hover {
+    background-color: #163758;
+    color: white;
+}
+
+.confluence .product {
+    background-color: #205081;
+}
+
+.confluence .product h2 {
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+.confluence .product p {
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 1.1;
+    margin-top: 34px;
+}
+
+.confluence .features h2{
+    margin-top: 23px;
+}
+
+.confluence .features p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.confluence p.price {
+    color: #205081;
+}
+
+/* #endregion*/

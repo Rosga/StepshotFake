@@ -6,14 +6,14 @@ using System.Web.Mvc;
 
 namespace Stepshot.Controllers
 {
-    public class HomeController : Controller
+    public class ConfluenceController : Controller
     {
+        // GET: Confluence
+        [Route("confluesnce")]
         public ActionResult Index()
         {
-            ViewBag.Type = "full";
+            ViewBag.Type = "confluence";
             return View();
         }
-
-        
     }
 }

@@ -1,5 +1,17 @@
-﻿<ul class="nav navbar-nav navbar-right">
-    <li>@Html.ActionLink("Features", "Features", "Home", routeValues: null, htmlAttributes: new { id = "featuresLink", })</li>
-    <li>@Html.ActionLink("Free Trial", "FreeTrial", "Home", routeValues: null, htmlAttributes: new { id = "freeTrialLink", @class = "text-success" })</li>
-    <li>@Html.ActionLink("Buy Now", "BuyNow", "Home", routeValues: null, htmlAttributes: new { id = "buyNowLink", @class = "text-danger" })</li>
-</ul>
+﻿@if (ViewBag.Type == "full")
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Features", "Features", "Home", routeValues: null, htmlAttributes: new { id = "featuresLink", })</li>
+        <li>@Html.ActionLink("Free Trial", "FreeTrial", "Home", routeValues: null, htmlAttributes: new { id = "freeTrialLink", @class = "text-success" })</li>
+        <li>@Html.ActionLink("Buy Now", "BuyNow", "Home", routeValues: null, htmlAttributes: new { id = "buyNowLink", @class = "text-danger" })</li>
+    </ul>
+}
+else
+{
+  <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Features", "Features", "Confluence", routeValues: null, htmlAttributes: new { id = "featuresLink", })</li>
+        <li>@Html.ActionLink("Free Trial", "FreeTrial", "Confluence", routeValues: null, htmlAttributes: new { id = "freeTrialLink", @class = "text-success" })</li>
+        <li>@Html.ActionLink("Buy Now", "BuyNow", "Confluence", routeValues: null, htmlAttributes: new { id = "buyNowLink", @class = "text-danger" })</li>
+    </ul>
+}
+
